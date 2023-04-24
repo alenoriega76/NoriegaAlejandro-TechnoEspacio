@@ -4,7 +4,7 @@ Actividades de realizacion de e-comerce para la Diplomatura en Desarrollo Ful St
 
 # Techno Espacio
 Este es un e-comerce enfocado a la venta de electrodomesticos e insumos informáticos, en donde los ususarios podran realizar pedidos, modificarlos y eliminarlos .
-![]("C:\Users\aleno\Downloads\technoEspacio\logitoo2_Capa 1_copy_1.png")
+
 
 ## Tipografía 
 Para la tipografía se utilizará.:
