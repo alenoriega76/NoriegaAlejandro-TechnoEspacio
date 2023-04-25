@@ -17,4 +17,4 @@ Para la tipografía se utilizará.:
 ![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/img/logitoo2_Capa%201_copy_1.png?raw=true)
 
 ## Nuesra paleta de colores a utilizar .
-![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/paletaColor.png?raw=true)
+![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/img/paletaColor.png?raw=true)
