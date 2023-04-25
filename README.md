@@ -7,9 +7,11 @@ Este es un e-comerce enfocado a la venta de electrodomesticos e insumos informá
 
 
 ## Tipografía 
-Para la tipografía se utilizará.:
+Para la tipografía se utilizará 
 
 ![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/fonts.png?raw=true)
+## con la fuente Poltawski Nowy.
+![]()
 
 
 
