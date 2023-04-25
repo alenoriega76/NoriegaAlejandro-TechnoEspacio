@@ -20,4 +20,12 @@ con la fuente Poltawski Nowy.
 ![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/img/logitoo2_Capa%201_copy_1.png?raw=true)
 
 ## Nuestra paleta de colores a utilizar .
-![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/img/paletaColor.png?raw=true)
+![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/img/paletaColor.png?raw=true)    
+
+   COLOR      | CODIGO HEX
+------------- | -------------
+Yale Blue     | 134074
+Berkeley Blue | 133156 
+Oxford Blue   | 0B2545 
+Powder blue   | 8DA9C4 
+Mint cream    | EEF4ED
