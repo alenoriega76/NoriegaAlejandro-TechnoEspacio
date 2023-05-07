@@ -30,5 +30,5 @@ Oxford Blue   | 0B2545
 Powder blue   | 8DA9C4 
 Mint cream    | EEF4ED
 ## Bocetos  de Ecommerce 
-- [Vistas ](https://www.figma.com/file/MweyPX2dxjE68u3TMX8pkw/Ecommerce_Techno-Espacio?type=design&node-id=0-1&t=VuRrnZ34qgifAUBh-0)
+- [Vistas en Figma ](https://www.figma.com/file/MweyPX2dxjE68u3TMX8pkw/Ecommerce_Techno-Espacio?type=design&node-id=0-1&t=VuRrnZ34qgifAUBh-0)
 
