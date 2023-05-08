@@ -14,7 +14,7 @@ Para la tipografía se utilizará:
 con la fuente Poltawski Nowy.
 
 ![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/img/estiloFuente.png?raw=true)
-- [Echa un vistazo en google fonts! ]("https://www.fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poltawski+Nowy:ital@1&display=swap")
+- [Echa un vistazo en google fonts! ](https://fonts.google.com/share?selection.family=Bruno%20Ace%20SC%7CPoltawski%20Nowy:ital@1)
 
 ## Nuestro Logo 
 ![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/img/logitoo2_Capa%201_copy_1.png?raw=true)
