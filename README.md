@@ -2,7 +2,7 @@
 Actividades de realización de e-comerce para la Diplomatura en Desarrollo Ful Stack de Icaro UNC.
 
 
-# Techno Espacio
+# Techno Espacio 📱
 Este es un e-comerce enfocado a la venta de electrodomésticos e insumos informáticos, en donde los usuarios podrán realizar pedidos, modificarlos y eliminarlos .
 
 
