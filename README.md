@@ -1,8 +1,8 @@
-# NoriegaAlejandro-TechnoEspacio
+# NoriegaAlejandro-TechnoEspacio💻
 Actividades de realización de e-comerce para la Diplomatura en Desarrollo Ful Stack de Icaro UNC.
 
 
-# Techno Espacio
+# Techno Espacio 📱
 Este es un e-comerce enfocado a la venta de electrodomésticos e insumos informáticos, en donde los usuarios podrán realizar pedidos, modificarlos y eliminarlos .
 
 
@@ -14,7 +14,7 @@ Para la tipografía se utilizará:
 con la fuente Poltawski Nowy.
 
 ![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/img/estiloFuente.png?raw=true)
-
+- [Echa un vistazo en google fonts! ](https://fonts.google.com/share?selection.family=Bruno%20Ace%20SC%7CPoltawski%20Nowy:ital@1)
 
 ## Nuestro Logo 
 ![](https://github.com/alenoriega76/NoriegaAlejandro-TechnoEspacio/blob/master/img/logitoo2_Capa%201_copy_1.png?raw=true)
@@ -29,3 +29,6 @@ Berkeley Blue | 133156
 Oxford Blue   | 0B2545 
 Powder blue   | 8DA9C4 
 Mint cream    | EEF4ED
+## Bocetos  de Ecommerce 
+- [Vistas en Figma ](https://www.figma.com/file/MweyPX2dxjE68u3TMX8pkw/Ecommerce_Techno-Espacio?type=design&node-id=0-1&t=VuRrnZ34qgifAUBh-0)
+
