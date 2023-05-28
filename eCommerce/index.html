@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./reset.css">
    <link rel="icon" href="./imagenes/logoactualizado.png">
-
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="header">
@@ -35,7 +35,7 @@
     <main class="principal">
         <h1>Productos</h1>
         <section class="container">
-            <div class="card">
+            <div  data-aos="zoom-in" class="card">
                 <div class="card_image"><img src="./imagenes/tablet.png"></div>
                 <h2>Celular Samsung A22</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -43,7 +43,7 @@
                 <button class="buy">Buy now</button>
                 <button class="buy">ver mas</button>
             </div>
-            <div class="card">
+            <div data-aos="zoom-in-up" class="card">
                 <div class="card_image"><img src="./imagenes/celularA22.jpg"></div>
                 <h2>Celular Samsung A22</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -51,7 +51,7 @@
                 <button class="buy">Buy now</button>
                 <button class="buy">ver mas</button>
             </div>
-            <div class="card">
+            <div  data-aos="fade-left" class="card">
                 <div class="card_image"><img src="./imagenes/cpu.webp"></div>
                 <h2>Celular Samsung A22</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -59,7 +59,7 @@
                 <button class="buy">Buy now</button>
                 <button class="buy">ver mas</button>
             </div>
-            <div class="card">
+            <div  data-aos="fade-up" class="card">
                 <div class="card_image"><img src="./imagenes/monitor.jpg"></div>
                 <h2>Celular Samsung A22</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -67,7 +67,7 @@
                 <button class="buy">Buy now</button>
                 <button class="buy">ver mas</button>
             </div>
-            <div class="card">
+            <div  data-aos="fade-left" class="card">
                 <div class="card_image"><img src="./imagenes/teclado.jpg"></div>
                 <h2>Celular Samsung A22</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -75,7 +75,7 @@
                 <button class="buy">Buy now</button>
                 <button class="buy">ver mas</button>
             </div>
-            <div class="card">
+            <div data-aos="fade-right" class="card">
                 <div class="card_image"><img src="./imagenes/earphone.png"></div>
                 <h2>Celular Samsung A22</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -107,10 +107,14 @@
         </div>
       </footer>  
 </div>
-</body>
 <script type="module"
 src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule
 src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
 
 </html>
