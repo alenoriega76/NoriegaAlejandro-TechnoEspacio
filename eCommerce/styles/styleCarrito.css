@@ -1,105 +1,134 @@
-
-/* variables*/
-:root {
-    --colorHeader: #134074;
-    --colorFooter: #0B2545;
-    --coorbackground: #EEF4ED;
-    --cardColor: #8DA9C4;
-    --botonesColor: #133156;
-    --colorlineaCar: rgb(224, 141, 47);
+:root{
+    --colorHeader:#134074;
+    --colorFooter:#0B2545;
+    --colorbackground:#EEF4ED;
+    --cardColor:#8DA9C4;
+    --botonesColor:#133156;
+    --colorlineaCar:rgb(224, 141, 47);
 }
-
 /* importacion dela fuente */
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poltawski+Nowy:ital@1&family=Roboto:wght@300&display=swap');
-
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.header{
-    background: var(--colorHeader);
-}
-body {
-    background-color: var(--coorbackground);
-}
-
-nav {
-    height: 80px;
+.container{   
     width: 100%;
-    padding: 20px 0;
+    height: 80px;
     background: var(--colorHeader);
+}
+.conta_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width:80px;
+    height: 80px;
+    float: left;
+    padding: 10px;
 
 }
-
-nav ul {
-    float: right;
-    margin-right: 20px;
-
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 40px;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-
-}
-.logo{
-    width: 130px;
-    height: 60px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-.checkbtn {
-    font-size: 40px;
-    float: right;
-    line-height: 50px;
-    margin: 20px 0;
-    display: none;
-}
-
-#check {
-    font-size: 30px;
-    color: #fff;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-.link {
-    color: var(--coorbackground);
-    text-decoration: none;
-}
-
-.link:hover {
-    background-color: white;
-    color: blue;
-    font-size: 19px;
-    border: solid 1px black;
-    border-radius: 5px;
-    padding: 2.4px;
-}
-
-/*codigo tarjeta*/
-.item{
-    align-items:center ;
-    width: 80%;
+.lista ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 10px;
     
+}
+ul li a {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--colorbackground);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+ul li a:hover{
+    color: var(--botonesColor);
+    background: var(--colorbackground); 
+    transition: transform;
+    transform: scale(2.5px);
+    border: solid 2px black;
+    border-radius: 4px;
+}
+
+.container_body{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 30px;
+ }
+ h1{
+    text-align: center;
+ }
+.card{
+    background: var(--cardColor);
+    width: 270px;
+    min-height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px var(--botonesColor);
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    height: 150px;  
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 14px;
+    text-align: center;
+    color: var(--colorbackground);
+    margin-bottom: 20px;
+}
+h6{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* botones*/
+.buy{
+    width: 120px;
+    height: 30px;
+    color: var(--colorbackground);
+    background-color: var(--botonesColor);
+    border-radius: 10px;
+}
+.buy:hover{
+    background-color:var(--coorbackground);
+    color: var(--colorFooter);
+}
+
+/* estilo de contorno de tarjeta*/
+.card:hover{
+    border: 2px solid var(--colorlineaCar);
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    width: 500px;
+    justify-content: center;
+    height: auto;
+    margin: auto;
 }
 .items {
     cursor: pointer;
-    width: auto;
     height: auto;
-    background: rgb(255, 255, 255);
+    background: rgb(236, 233, 233);
     border-radius: 10px;
     border: 2px solid var(--botonesColor);
     padding: 10px;
@@ -108,7 +137,7 @@ nav ul li a {
     background: var(--cardColor);
     display: flex;
     
-}
+} 
 
 
 .imgcarrito {
@@ -122,7 +151,7 @@ nav ul li a {
 
 .descrip{
     width: 30%;
-   text-align: left;
+    text-align: left;
      padding: 30px;
 }
 
@@ -144,7 +173,18 @@ h2 {
     margin-top: 30px;
     
 }
-
+.btnmas{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.btnmas button {
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    color: var(--coorbackground);
+    background: var(--botonesColor);
+}
 .comprar .btncompra {
     margin-left: 47%;
     margin-top: 20px;
@@ -157,122 +197,166 @@ h2 {
 
 .comprar .btncompra:hover {
     transform: scale(1.2);
-    color: var(--coorbackground);
+    color: var(--colorbackground);
+    
 }
-
-
-
-/* pie de pagina*/
-.contenedor_pie {
-    margin-top: 10px;
-    display: flex;
+/*footer*/
+.container_footer{
     background-color: var(--colorFooter);
     width: 100%;
-    height: 250px;
+    min-height: 300px;
+    align-content: center;
 }
-
-.footer {
+.redes ul{
     display: flex;
-    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    
 }
-
-.redes {
-    list-style: none;
-    margin-top: 200px;
-    display: flex;
-    gap: 0.5rem;
-    margin-left: 10px;
-}
-
-li img {
+.redes ul img{
     width: 30px;
     height: 30px;
 }
-
-.footer p {
-    text-align: center;
-    font-size: 11px;
-    color: var(--coorbackground);
+li{
+    margin-top: 20px;
 }
-
-iframe {
-    width: 250px;
-    height: 190px;
+.parrafo{
+    text-align: center;
+    margin-top: 40px;
+    color: var(--colorbackground);
+    padding: 10px;
+    font-size: 12px;
+}
+.mapa iframe{
+    height: 200px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 20px;
     margin-top: 10px;
     padding: 10px;
-    border-radius: 20px;
 }
-
-/* estilo responsive*/
-@media (max-width: 852px) {
-
-    nav ul li a {
-        padding-left: 20px;
+@media(max-width:760px){
+    .container{
+        width: auto;
+        height: auto;
     }
     .logo{
-        padding-left: 2opx;
-    }
-}
-
-@media (max-width: 552px) {
-    .checkbtn{
+        width: 20px;
+        height: 20px;
+        margin-left: 30px;
+     }
+     .item{
         display: block;
+        flex-wrap: wrap;
+        height: auto;
+        width: 50%;
+     } 
+     .imgcarrito{
+        width: 80%;
     }
-
-    ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: var(--cardColor);
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
+    .container_footer{
+       display: flex;
+       flex-direction: column;
     }
-
-    nav ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-
-    }
-    a {
-        font-size: 20px;
-    }
-    #check:checked ~ ul {
-        left: 0;
-    }
- .item{
-    display: block;
-    flex-direction: column;
- }
- .items{
-    flex-direction: column;
- }
- .imgcarrito{
-    width: 90%;
-
- }
- .descrip {
-    text-align: center;
-    width: 100%;
- }
- .precio h2, h3{
-    text-align: center;
- }
-    .contenedor_pie, .footer{
-        flex-direction: column;
-    }
-    .footer p{
-        text-align: center;
-    }
-    .redes li img {
-        flex-direction: column;
-        display: inline-block;
-        width: 100%;
-    }
-    iframe {
+    .redes ul{
+        margin-left: 100px;
+        padding: 10px;
+        margin-bottom: 40px; 
+      
+      }
+    div.mapa iframe {
         align-items: center;
-        width: 100%;
+    }
+  
+    .redes ul img{
+        width: 30px;
+        height: 30px;
+      
+    }
+    p{
+        font-size: 22px;
+    }
+   iframe{
+    align-content: center;
+    width: 90%;
+    margin-right: 40px;
+    margin-top: 10px;
+   }
+    .mapa iframe{
+        align-content: center;
     }
 }
+ @media(max-width:580px){
+    .container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-content: center;
+    }
+    .logo img{
+        margin-left: 50px;
+    }
+    .conta_nav{
+    flex-direction: column;
+     }
+    .lista ul{
+     flex-direction: column;
+    margin-left: 10px;
+    }
+    .redes ul li img{
+        width: 20px;
+        height: 20px;
+    }
+    .banner{
+    width: 100%;
+    }
+    .container_body {
+        flex-direction: column;
+        width: 80%;
+        margin-left: 40px;
+    
+    }
+    .buy{
+    width: 70px;
+    height: 30px;
+  
+    }
+    .item{
+        align-content: center;
+        height: auto;
+       width: 100%;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .imgcarrito{
+        width: 80%;
+    }
+    .precio{
+
+        text-align: center;
+    }
+ /* pie de pagina*/
+    .container_footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .redes ul{
+        margin-left: 30px;
+    }
+    .parrafo{
+        font-size: 10px;
+        text-align: center;
+    }
+    .mapa iframe{
+        margin-top: 20px;
+        width:90%;
+        height: 180px;
+        
+    }
+ }
