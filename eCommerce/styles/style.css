@@ -61,8 +61,8 @@ ul li a:hover{
 .container_body{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
-    margin-left: 30px;
+    padding: 10px;
+    margin-left: 45px;
  }
  h1{
     text-align: center;
@@ -159,11 +159,13 @@ li{
     .container{
         width: 100%;
         height: auto;
+    
     }
     .logo{
         width: 20px;
         height: 20px;
-        margin-left: 30px;
+        margin-left: 20px;
+        margin-bottom: 50px;margin-bottom: 50px;
      }
     .container_footer{
        display: flex;

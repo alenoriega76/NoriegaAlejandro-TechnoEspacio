@@ -76,7 +76,7 @@ ul li a:hover{
 }
 .card{
     max-width:350px;
-    height: 600px;
+    height: auto;
     padding:10px;
     border-radius: 20px;
     background-color: var(--cardColor);
@@ -200,6 +200,7 @@ li{
         width: 30px;
         height: 30px;
         margin-left: 10px;
+        margin-bottom: 50px;
      }
     .container_footer{
        display: flex;
@@ -269,7 +270,9 @@ li{
         margin-left: 20px;
     }
     form i {
-        margin-left: 35px;
+        margin-left: 65px;
+        align-items: center;
+        
     }
     .container_body {
         flex-direction: column;

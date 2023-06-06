@@ -120,7 +120,7 @@ h6{
     display: flex;
     flex-direction: column;
     align-items:center ;
-    width: 500px;
+    width: 700px;
     justify-content: center;
     height: auto;
     margin: auto;
@@ -141,7 +141,7 @@ h6{
 
 
 .imgcarrito {
-    width: 20%;
+    width: 30%;
     height: 180px;
     margin-left: 20px;
     margin-top: 20px;
@@ -150,22 +150,15 @@ h6{
 }
 
 .descrip{
-    width: 30%;
+    width: 50%;
     text-align: left;
      padding: 30px;
 }
 
-.cantidad h2{
-    margin-top: -80px;
-    margin-left: 66%;
+.precio h2 h3{
+    margin-top: 70px;
 }
 
-
-.precio h3{
-    align-items: center;
-    padding: 10px;
-   
-}
 
 h2 {
     font-weight: bolder;
@@ -238,7 +231,7 @@ li{
     margin-top: 10px;
     padding: 10px;
 }
-@media(max-width:760px){
+@media(max-width:780px){
     .container{
         width: auto;
         height: auto;
@@ -247,15 +240,19 @@ li{
         width: 20px;
         height: 20px;
         margin-left: 30px;
+        margin-bottom: 50px;
      }
      .item{
         display: block;
         flex-wrap: wrap;
         height: auto;
-        width: 50%;
+        width: auto;
      } 
+     .items{
+        width: 100%;
+     }
      .imgcarrito{
-        width: 80%;
+        width: 20%;
     }
     .container_footer{
        display: flex;
@@ -327,17 +324,23 @@ li{
     .item{
         align-content: center;
         height: auto;
-       width: 100%;
+        width: 80%;
+        align-items: center;
+        margin-left: -15px;
     }
     .items{
         flex-direction: column;
     }
     .imgcarrito{
         width: 80%;
+        
     }
-    .precio{
-
+    .precio {
         text-align: center;
+        margin-left: 20px;
+    }
+    .descrip{
+        width: 100%;
     }
  /* pie de pagina*/
     .container_footer{
@@ -358,5 +361,10 @@ li{
         width:90%;
         height: 180px;
         
+    }
+    .comprar button.btncompra{
+        margin-left: 90px;
+        margin-bottom: 10px;
+        width: 60%;
     }
  }
