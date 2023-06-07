@@ -272,6 +272,15 @@ li{
     p{
         font-size: 22px;
     }
+    .item{
+        display: block;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+     } 
+     .items{
+        width: 100%;
+     }
    iframe{
     align-content: center;
     width: 90%;
