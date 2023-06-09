@@ -172,6 +172,7 @@ h6 {
     width: 50%;
     text-align: left;
     padding: 30px;
+    margin-top: 30px;
 }
 
 .precio h2 {
@@ -181,6 +182,7 @@ h6 {
     margin-left: 50px;
 }
 div.btn_cantidad .cantidad {
+    padding: 10px;
     display: inline;
     margin-left: 10px;
     align-items: center;
@@ -200,6 +202,7 @@ h2 {
 
 }
 .btn_cantidad  {
+    margin-top: 80px;
     display: flex;
 }
 .boton-mas {
@@ -435,7 +438,7 @@ li {
         width: 100%;
     }
     div.btn_cantidad .cantidad {
-        width: 50%;
+        width: 30%;
     }
     /* pie de pagina*/
     .container_footer {
