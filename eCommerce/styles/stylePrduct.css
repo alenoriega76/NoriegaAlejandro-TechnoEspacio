@@ -185,6 +185,9 @@ h2 {
     color: var(--coorbackground);
     background: var(--botonesColor);
 }
+.fa-solid{
+    margin-left: 10px;
+}
 .comprar .btncompra {
     margin-left: 47%;
     margin-top: 20px;
