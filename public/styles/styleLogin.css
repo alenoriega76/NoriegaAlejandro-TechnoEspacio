@@ -260,12 +260,12 @@ li{
         height: auto;
     }
     form{
-        width: 80%;
+        width: auto;
         flex-direction: column;
         height: auto;
     }
     form input,button{
-        width: 100%;
+        width: 80%;
         display: block;
         margin-left: 20px;
     }
