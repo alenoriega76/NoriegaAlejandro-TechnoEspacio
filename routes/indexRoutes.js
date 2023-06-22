@@ -1,10 +1,7 @@
 const express = require('express');
 const router= express.Router();
-router.get('/',(req, res) => {
-    res.send('Bienvenidos a Techno Espacio')
-});
 
-router.get('/productos',(req,res)=>{
+router.get('/',(req,res)=>{
     res.render('productos');
 })
 router.get('/login',(req,res)=>{
